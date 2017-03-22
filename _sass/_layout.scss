@@ -2,9 +2,9 @@
  * Site header
  */
 .site-header {
-    border-bottom: 1px solid #E5E5E5;
+    border-bottom: 1px solid $grey-color-dark;
     position: relative;
-    background-color: #F5F5F5;
+    background-color: $background-color;
     text-align: center;
 }
 
@@ -318,10 +318,10 @@
     letter-spacing: -1px;
     margin-bottom: 3px;
     float: left;
-    color: #505050;
+    color: #fff;
     &,
     &:visited {
-        color: #505050;
+        color: #fff;
     }
     .blogpost {
         text-align: left;
@@ -391,9 +391,9 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid #E6E6E6;
+    border-top: 1px solid $grey-color-dark;
     padding: $spacing-unit 0;
-    background-color: #F9F9F9;
+    background-color: $background-color;
 }
 
 .footer-heading {
